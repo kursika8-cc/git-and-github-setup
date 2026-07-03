@@ -17,5 +17,12 @@ git config --list <br>
 11. give a name to repo (ex. news-website) <br>
 12. click botton --> create a repo (green botton) <br>
 13. find the link that start with --> git remote add origin --> copy that whole line <br>
-14. open your vs code --> open terminal (check the menu click the option terminal --> new terminal) --> first check last words (ex. /news-website)<br>
+14. open your vs code --> open terminal (check the menu click the option terminal --> new terminal) --> first check last words (ex. /news-website>)<br>
 15. paste copy link --> close the terminal <br>
+16.create files, edit files, delete files into your folder <br>
+17.open terminal and give below cmd one by one:
+git add .
+git commit -m "give a msg"
+git push origin main (main --> branch name {check your working brach first and after tha t write the branch name}) <br>
+18.repeat the cycle
+edit files --> git add . --> git commit -m "give a msg" --> git push origin main --> edit files <br>
